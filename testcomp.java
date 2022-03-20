@@ -62,7 +62,7 @@ class sepeda{
     sepeda(String merk,stang stang, ban ban, casis casis){
 
         this.stangg = stang;
-        this.bann = ban;
+        this.bann = ban;S
         this.casiss = casis;
         this.merk = merk; 
     }
@@ -108,8 +108,8 @@ public class testcomp{
         sepeda sepeda1 = new sepeda("Wimcycle",stang1, ban1, casis1);
         System.out.println("Merk sepeda: "+ sepeda1.getMerk());
         System.out.println("Merk Stang: "+ sepeda1.stangg.getMerk());
-        System.out.println("Merk Casis: "+ sepeda1.casiss.getMerk());
-         System.out.println("Merk Ban: "+ ban1.getMerk());
+        System.out.println("Merk Casis: "+ sepeda1.casiss.getMerk()); //ini kurang baik sebenarnya, tapi gas aja asal working
+         System.out.println("Merk Ban: "+ ban1.getMerk()); //private string, hanya bisa diakses dari kelasnya
         //System.out.println("Memory address " + VM.current().addressOf(sepeda1)); */
        
 
